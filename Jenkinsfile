@@ -1,21 +1,3 @@
-L:{
-
-FROM openjdk:17-alpine
-
-
-WORKDIR /app
-
-
-COPY Sample.java .
-
-
-RUN javac Sample.java
-
-
-CMD ["java", "Sample"]
-
-}
-
 pipeline {
   agent any
 
