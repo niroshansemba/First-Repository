@@ -1,4 +1,9 @@
-FROM openjdk
-COPY sample.java .
-RUN javac sample.java
-CMD ["java", "sample"]
+FROM openjdk:17-alpine
+
+WORKDIR /app
+
+COPY Sample.java .
+
+RUN javac Sample.java
+
+CMD ["java", "Sample"]
