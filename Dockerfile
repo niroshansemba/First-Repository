@@ -2,7 +2,7 @@ FROM openjdk:17-alpine
 
 WORKDIR /app
 
-COPY Sample.java ./
+COPY sample.java ./
 
 RUN javac Sample.java
 
