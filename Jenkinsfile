@@ -1,5 +1,5 @@
 {
-# Use an official OpenJDK image from the Docker Hub
+## Use an official OpenJDK image from the Docker Hub
 FROM openjdk:17-alpine
 
 # Set the working directory inside the container
